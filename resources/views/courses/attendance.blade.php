@@ -9,7 +9,6 @@
     @if(count($trimesters) > 0)
         @foreach($trimesters as $trimester)
             <div id="page" class="container-fluid d-print-block">
-                <!--TRIMAK-->
                 <fieldset class="pt-2 mb-2">
                     <legend id="course" class="float-none w-auto mx-sm-2 text-xl-start text-center" >
                         {{$trimester}}
