@@ -1,14 +1,7 @@
 
 <div class="footer" style="width: 100%">
-    <!--SNACKBAR-->
-<fieldset id="snackbar">
-    <legend id="wText" class="float-none w-auto text-center">
-        Message
-    </legend>
-    This function isn't available yet.
-</fieldset>
 
-<footer class="container-fluid text-center p-3 disabled text-muted " style="background-color: #373a3c">
+<footer class="container-fluid text-center p-3 disabled text-muted " style="">
     <div class="text-center">
         <a href="https://astanait.edu.kz/en/aitu-2/" target="_blank" class="footerlink">
             <i class="fa fa-external-link-square fa-2x mx-2"></i>
@@ -24,8 +17,8 @@
 
 <!--UNDER FOOTER-->
 
-<div class="container-fluid text-center p-3 disabled text-muted " id="phrase"
-     style="word-break: break-all; background-color: #2B2D2F	">
+<footer class="container-fluid text-center p-3 disabled text-muted " id="phrase"
+     style="word-break: break-all">
     Created by:
  <a href='https://t.me/lagmazavr' class='link-secondary' target='_blank'> <i class='fa fa-telegram '></i>
         lagmazavr </a>
@@ -36,7 +29,7 @@
       </a>
     <wbr/> + <a href='https://t.me/Qolymnan_usta' class='link-secondary' target='_blank'><i class='fa fa-telegram '></i> Qolymnan_usta </a>
 
-</div>
+</footer>
 <!--SNACKBAR-->
 <fieldset id="snackbar">
     <legend id="wText" class="float-none w-auto text-center">

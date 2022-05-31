@@ -4,7 +4,7 @@
     <div style="margin-top: 20px" class="row-fuiled">
         <ul class="nav nav-pills mx-3 my-2 justify-content-center" role="tablist">
             <li class="nav-item" >
-                <a href="/courses/grades" class="nav-link @yield('buttons_status_grades') active">
+                <a href="/courses/grades" class="nav-link @yield('buttons_status_grades')">
                     Courses
                 </a>
             </li>
@@ -21,15 +21,11 @@
         </ul>
     </div>
 
-    <div class="mb-3">
+
 
         <!--TABLE-->
-        <div class="container-fluid tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-
-
+        <div class="container-fluid tab-pane fade show active mb-3" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                     @yield('grades_table')
-
-
         </div>
 
 

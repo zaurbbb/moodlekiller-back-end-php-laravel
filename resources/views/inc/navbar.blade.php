@@ -1,12 +1,12 @@
 <div id="app">
-    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+    <nav class="navbar navbar-expand-md navbar-light shadow-sm">
         <div class="container-fluid">
 
             @guest
 
             @else
-                <a class="navbar-item ms-2 me-3 my-auto" href="/courses/grades">
-                    <button class="courses_text" style="border-radius: 5px;">
+                <a class="navbar-item ms-2 me-0 my-auto" href="/courses/grades">
+                    <button class="courses_text">
                         Courses
                     </button>
                 </a>
@@ -22,12 +22,12 @@
 
                             <a href="/" class="navbar-brand">
 
-                            <span class="logo d-none d-sm-inline">
-                                <img width="30" height="35" src="https://moodle.astanait.edu.kz/pluginfile.php/1/core_admin/logocompact/100x100/1640173744/logo%20AITU%28imageonly%29.png" alt="Astana IT University">
+                                <span class="logo d-none d-sm-inline">
+                                <img id="moodle_logo" width="30" height="35" src="https://i.ibb.co/R21LxRF/dark-logo.png" alt="Astana IT University">
                                 </span>
                                 <span class="mt-5 fs-6" style="font-family: 'Nunito', sans-serif">
                                 MoodleKiller Project
-                            </span>
+                                </span>
                             </a>
                         </a>
                     </li>
@@ -42,14 +42,12 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li onclick="pushUpMessage()">
                                 <a class="dropdown-item" href="#">
-                                    <i class="fa fa-globe"></i>
-                                    English
+                                    <i class="fa fa-globe fa-fw"></i> English
                                 </a>
                             </li>
                             <li onclick="pushUpMessage()">
-                                <a class="dropdown-item" href="#">
-                                    <i class="fa fa-language"></i>
-                                    Russian
+                                <a class="dropdown-item " href="#">
+                                    <i class="fa fa-language fa-fw"></i> Russian
                                 </a>
                             </li>
                         </ul>
@@ -58,24 +56,10 @@
 
                 <!--THEME-->
                 <ul class="navbar-nav mx-2 me-auto py-lg-0 py-sm-2  ">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#"  data-bs-toggle="dropdown" >
-                            Theme
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="themeToggle()" data-bs-toggle="dropdown" >
+                            Change theme
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li onclick="themeToggle()">
-                                <a class="dropdown-item" href="#">
-                                    <i class="fa fa-star-o"></i>
-                                    Light
-                                </a>
-                            </li>
-                            <li onclick="themeToggle()">
-                                <a class="dropdown-item" href="#">
-                                    <i class="fa fa-star"></i>
-                                    Dark
-                                </a>
-                            </li>
-                        </ul>
                     </li>
                 </ul>
                 </div>

@@ -13,8 +13,7 @@ class PagesController extends Controller
             'legend_news' => 'Announcements',
             'legend_deadlines' => 'Upcoming deadlines',
             'title' => 'MoodleKiller',
-
-            //'courses' => Course::all()->toArray(),
+            'courses' => Course::all()->toArray(),
             'news' => [
                 'English',
                 'WEB2',
@@ -41,21 +40,14 @@ class PagesController extends Controller
             'title' => 'Grades',
             'field1' => 'Course name',
             'field2' => 'Grade',
+
             'active_attendance_button' => 'active',
             'mark' => 'its gonna seen by database',
             'trimesters' => [
-                'its gonna seen by database',
-                'its gonna seen by database',
-                'its gonna seen by database',
+                '3rd trimester',
             ],
-            'courses' => [
-                'english' => 'its gonna seen by database' ,
-                'web2' => 'its gonna seen by database',
-                'ads' => 'its gonna seen by database',
-                'calculus' => 'its gonna seen by database',
-                'codlab' => 'its gonna seen by database',
-                'pc' => 'its gonna seen by database',
-            ],
+            //'trimestets' => Course::all()->toArray(),
+            'courses' => Course::all()->toArray(),
         ];
         return view('courses.grades')->with($data);
     }

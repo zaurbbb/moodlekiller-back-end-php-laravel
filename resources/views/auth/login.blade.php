@@ -15,10 +15,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/05a12f98dd.js" crossorigin="anonymous"></script>
 

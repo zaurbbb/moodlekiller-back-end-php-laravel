@@ -13,14 +13,14 @@
                 </legend>
 
                 <div class="row d-flex justify-content-center">
-                    it's gonna be seen with DataBase
-                    {{--@foreach($courses as $course)
-                        <div  class="col-lg-4 d-flex justify-content-center my-2 px-auto py-auto text-wrap">
-                            <a class="btn btn-outline-secondary w-80" href="/courses/{{'/'}}">
-                                {{$course['name']}}
-                            </a>
-                        </div>
-                    @endforeach--}}
+                    @foreach($courses as $course)
+
+                            <div  class="col-lg-4 d-flex justify-content-center my-2 px-auto py-auto text-wrap">
+                                <a class="subj w-85" href="/courses/{{$course['url']}}">
+                                    {{$course['name']}} | {{$course['teacher']}}
+                                </a>
+                            </div>
+                    @endforeach
                 </div>
 
             </fieldset>
@@ -527,7 +527,7 @@
                             </a>
                             <br>
                             <a target="_blank" href="https://moodle.astanait.edu.kz/pluginfile.php/24480/block_html/content/3%20%D0%BA%D1%83%D1%80%D1%81%20%D0%B0%D0%BD%D0%B3%D0%BB.pdf">
-                                Academic Calendar Master's Degree 1 course
+                                Academic Calendar Master's Degree
                             </a>
                             <br>
                             <a target="_blank" href="https://forms.office.com/Pages/ResponsePage.aspx?id=8xWPFeCDBkmCTGm9xQ2dYdQgqgpRMVJCgGvX6dIPF2JUNkVGTlFEUVVaSlE4TUIzNDVPUzZaQjlaTC4u">
