@@ -35,7 +35,6 @@ class PagesController extends Controller
     }
 
     public function grades(){
-
         $data = [
             'title' => 'Grades',
             'field1' => 'Course name',
@@ -53,7 +52,6 @@ class PagesController extends Controller
     }
 
     public function attendance(): string{
-
         $data = [
             'title' => 'Attendance',
             'field1' => 'Course name',
@@ -77,7 +75,6 @@ class PagesController extends Controller
     }
 
     public function schedule(): string{
-
         $data = [
             'title' => 'Schedule',
             'legend' => 'Your group: SE-2109'
