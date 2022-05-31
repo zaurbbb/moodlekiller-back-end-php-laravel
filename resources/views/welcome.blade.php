@@ -6,24 +6,25 @@
     @guest
 
     @else
-        <!-- Courses -->
-            <fieldset class="py-3">
-                <legend id="course" class="float-none w-auto mx-sm-2 text-xl-start text-center" >
-                    {{$legend_trimester}}
-                </legend>
+            {{--
+            <!-- Courses -->
+                <fieldset class="py-3">
+                    <legend id="course" class="float-none w-auto mx-sm-2 text-xl-start text-center" >
+                        {{$legend_trimester}}
+                    </legend>
 
-                <div class="row d-flex justify-content-center">
-                    @foreach($courses as $course)
+                    <div class="row d-flex justify-content-center">
+                        @foreach($courses as $course)
 
-                            <div  class="col-lg-4 d-flex justify-content-center my-2 px-auto py-auto text-wrap">
-                                <a class="subj w-85" href="/courses/{{$course['url']}}">
-                                    {{$course['name']}} | {{$course['teacher']}}
-                                </a>
-                            </div>
-                    @endforeach
+                                <div  class="col-lg-4 d-flex justify-content-center my-2 px-auto py-auto text-wrap">
+                                    <a class="subj w-85" href="/courses/{{$course['url']}}">
+                                        {{$course['name']}} | {{$course['teacher']}}
+                                    </a>
+                                </div>
+                        @endforeach
                 </div>
 
-            </fieldset>
+            </fieldset>--}}
     @endguest
 
     <!-- The main block -->

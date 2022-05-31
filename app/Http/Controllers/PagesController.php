@@ -13,7 +13,7 @@ class PagesController extends Controller
             'legend_news' => 'Announcements',
             'legend_deadlines' => 'Upcoming deadlines',
             'title' => 'MoodleKiller',
-            'courses' => Course::all()->toArray(),
+            'courses' => 'a',//Course::all()->toArray(),
             'news' => [
                 'English',
                 'WEB2',
@@ -46,7 +46,7 @@ class PagesController extends Controller
                 '3rd trimester',
             ],
             //'trimestets' => Course::all()->toArray(),
-            'courses' => Course::all()->toArray(),
+            'courses' => '[a,b,c]'//Course::all()->toArray(),
         ];
         return view('courses.grades')->with($data);
     }
@@ -63,7 +63,7 @@ class PagesController extends Controller
                 '3rd trimester',
             ],
             //'trimestets' => Course::all()->toArray(),
-            'courses' => Users::all()->toArray(),
+            'courses' => 'a',//Users::all()->toArray(),
         ];
         return view('courses.attendance')->with($data);
     }
