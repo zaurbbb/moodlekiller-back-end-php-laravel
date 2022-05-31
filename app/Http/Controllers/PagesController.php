@@ -63,7 +63,7 @@ class PagesController extends Controller
                 '3rd trimester',
             ],
             //'trimestets' => Course::all()->toArray(),
-            'courses' => Course::all()->toArray(),
+            'courses' => Users::all()->toArray(),
         ];
         return view('courses.attendance')->with($data);
     }

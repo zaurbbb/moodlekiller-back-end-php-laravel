@@ -8,7 +8,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
-class Course extends \TCG\Voyager\Models\User
+class Course extends \TCG\Voyager\Models\Course
 {
     use HasApiTokens, HasFactory, Notifiable;
 
