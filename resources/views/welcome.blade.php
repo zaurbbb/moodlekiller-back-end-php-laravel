@@ -62,7 +62,7 @@
 
                                         <span class="h6 fw-normal mb-0">
                                          by <a class="link-primary" href="/profile/umar">Umar Musa</a>
-                                         - Monday, 21 February 2022, 07:30 AM
+                                         - Monday, 23 May 2022, 07:30 AM
                                         </span>
                                     </div>
                                 </div>
@@ -82,7 +82,7 @@
                                         <span class="h6 mt-3 ">
                                           Final exams for the 1st course
                                           <span class="fw-normal">will be held from </span>
-                                            28.02.2022 to 19.03.2022!
+                                            31.05.2022 to 18.06.2022!
                                         </span>
 
                                         <span class="h6  mt-3 mb-2 fw-normal">
@@ -122,7 +122,7 @@
                                         </span>
                                         <span class="h6 fw-normal mb-0">
                                           by <a class="link-primary" href="/profile/umar">Umar Musa</a>
-                                          - Monday, 14 February 2022, 3:00 AM
+                                          - Monday, 23 May 2022, 3:00 AM
                                         </span>
                                     </div>
                                 </div>
@@ -142,7 +142,7 @@
                                         <span class="h6 mt-3 ">
                                           Final exams for the 2nd course
                                           <span class="fw-normal">will be held from </span>
-                                           21.02.2022 to 05.03.2022!
+                                           31.05.2022 to 18.06.2022!
                                         </span>
 
                                         <span class="h6  mt-3 mb-2 fw-normal">
@@ -167,67 +167,7 @@
                         </fieldset>
 
                         <!--THIRD BLOCK  (3course final)-->
-                        <fieldset class="mb-3 py-2">
-                            <!--TOP DIV-->
-                            <div class="container-fluid">
-                                <div class="mb-2 row  d-flex">
-                                    <!--LOGO-->
-                                    <div class="col-n1 d-none d-xxl-block text-center my-auto rounded-circle"
-                                         style="background-image: url('https://sun9-87.userapi.com/impf/hXOHdjIZnTrEo3NNuK3aBII4CRy-NSUmTnDEsg/5Qb98pjhNLQ.jpg?size=640x640&quality=96&sign=919edb211f86f8a916b951165364ecd6&type=album'); background-size: 100%;
-                              width: 35px; height: 35px; position:relative; top: 1px">
-                                    </div>
-
-                                    <!--TITLE-->
-                                    <div class="d-flex flex-column col-n11 my-auto">
-                                    <span class="h6 mb-0 ">
-                                        <span class="font-weight-bold">
-                                          Final exams for the 3rd course!
-                                        </span>
-
-                                    </span>
-
-                                    <span class="h6 fw-normal mb-0">
-                                      by <a class="link-primary" href="/profile/umar">Umar Musa</a>
-                                      - Monday, 7 February 2022, 4:30 AM
-                                    </span>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--BOTTOM DIV-->
-                            <div class=" container-fluid">
-                                <div class="row d-flex">
-                                    <!--NO LOGO-->
-                                    <div class="col-n1 d-none d-xxl-block" style="
-                                                                background-size: 100%;
-                                                                width: 35px; height: 35px;">
-                                    </div>
-
-                                    <!--INFO-->
-                                    <div class="d-flex flex-column col-n11 my-auto">
-                                        <span class="h6 mt-3 ">
-                                          Final exams for the 3rd course
-                                          <span class="fw-normal">will be held from </span>
-                                           21.02.2022 to 05.03.2022!
-                                        </span>
-
-                                        <span class="h6  mt-3 mb-2 fw-normal">
-                                          The schedule is attached below:
-                                        </span>
-
-                                        <span class="h6 mb-4 ">
-                                          <i class="fa fa-file-pdf-o"></i>
-                                          <a class="fw-normal ms-1" target="_blank" href="https://moodle.astanait.edu.kz/pluginfile.php/5035/mod_forum/attachment/529/3%20cours%28final%20examination%29.pdf?forcedownload=1">
-                                            3 course - Final Examination.pdf
-                                          </a>
-
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </fieldset>
+                        <!--NONE-->
 
                         <!--FOURTH BLOCK  (нирс конкурс)-->
                         <fieldset class="mb-3 py-2">
@@ -250,7 +190,7 @@
                                         </span>
                                         <span class="h6 fw-normal mb-0 ">
                                           by <a class="link-primary" href="/profile/akniet">Akniet Baibolat</a>
-                                          - Tuesday, 25 January 2022, 5:20 AM
+                                          - Wednesday, 25 May 2022, 5:20 AM
                                         </span>
                                     </div>
                                 </div>
@@ -317,13 +257,13 @@
                                     <div class="d-flex flex-column col-n11 my-auto">
                                         <span class="h6 mb-0">
                                           <span class="font-weight-bold">
-                                            The schedule for the 2nd trimester 2021-2022!
+                                            The schedule for the 3rd trimester 2021-2022!
                                           </span>
 
                                         </span>
                                         <span class="h6 fw-normal mb-0">
                                           by <a class="link-primary" href="/profile/umar">Umar Musa</a>
-                                          - Tuesday, 14 December 2022, 8:45 AM
+                                          - Tuesday, 15 March 2022, 8:45 AM
                                         </span>
                                     </div>
                                 </div>
@@ -344,7 +284,7 @@
                                           Dear students!
                                           <br>
                                           <br>
-                                          <span class="fw-normal">The schedule for the 2nd trimester is attached below.</span>
+                                          <span class="fw-normal">The schedule for the 3rd trimester is attached below.</span>
                                         </span>
 
                                         <span class="h6 mt-3 mb-4 ">

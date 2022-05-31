@@ -1,9 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
+    <style>
+
+    </style>
     <div style="margin-top: 20px" class="row-fuiled">
         <ul class="nav nav-pills mx-3 my-2 justify-content-center" role="tablist">
-            <li class="nav-item" >
+            <li class="nav-item">
                 <a href="/courses/grades" class="nav-link @yield('buttons_status_grades')">
                     Courses
                 </a>

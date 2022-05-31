@@ -25,7 +25,8 @@
                                 <span class="logo d-none d-sm-inline">
                                 <img id="moodle_logo" width="30" height="35" src="https://i.ibb.co/R21LxRF/dark-logo.png" alt="Astana IT University">
                                 </span>
-                                <span class="mt-5 fs-6" style="font-family: 'Nunito', sans-serif">
+                                <span class="mt-5 fs-6" style="font-family: 'Nunito', sans-serif;
+                                ">
                                 MoodleKiller Project
                                 </span>
                             </a>
@@ -57,7 +58,8 @@
                 <!--THEME-->
                 <ul class="navbar-nav mx-2 me-auto py-lg-0 py-sm-2  ">
                     <li class="nav-item">
-                        <a class="nav-link" href="#" onclick="themeToggle()" data-bs-toggle="dropdown" >
+                        <a class=" courses_text" href="#" onclick="themeToggle()" data-bs-toggle="dropdown"
+                        style="padding-bottom: 6px; padding-top: 5px">
                             Change theme
                         </a>
                     </li>
@@ -92,7 +94,7 @@
 
                             <ul class="dropdown-menu dropdown-menu-end text-start"  aria-labelledby="navbarDropdown">
                                 <li>
-                                    <a class="dropdown-item" href="mk_profile.html">
+                                    <a class="dropdown-item" href="/profile">
                                         <div class="container">
                                             <i class="fa fa-user me-1"></i>
                                             Profile

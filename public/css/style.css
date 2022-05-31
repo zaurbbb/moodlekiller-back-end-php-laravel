@@ -12,7 +12,7 @@ html, body{
     min-height: 100%;
 }
 .content {
-    padding-bottom: 100px;
+    padding-bottom: 120px;
 }
 .footer {
     position: absolute;
@@ -103,6 +103,7 @@ a:hover{
 .navbar{
     padding: 5px 0;
 }
+
 .custom-toggler .navbar-toggler-icon {
     background-image: url("https://moodle.astanait.edu.kz/pluginfile.php/48898/user/icon/boost/f2?rev=2110057");
     border-radius: 50px;
@@ -180,10 +181,13 @@ legend{
     border: 1px solid #1177d1;
 }
 tr td:first-child{
-    width: 500px;
+    width: 1300px;
 }
 tr:last-child td{
     border-bottom: none;
+}
+#favicon{
+    content: url("");
 }
 
 
@@ -226,6 +230,7 @@ tr:last-child td{
 .dark-mode .navbar-brand{
     color: white;
 }
+
 .dark-mode footer{
     background-color: #212738;
 }
@@ -246,7 +251,7 @@ tr:last-child td{
 }
 .dark-mode .courses_text:hover{
     background-color: #EF667D;
-    color: black;
+    color: #273049;
     transition: all 0.2s ;
 }
 .dark-mode #moodle_logo{
@@ -266,4 +271,19 @@ tr:last-child td{
     color: white;
     border: 1px solid #EF667D;
 }
+.dark-mode .dropdown-item:hover{
+    background-color: #EF667D;
+    color: #273049;
+}
+.dark-mode.nav-link {
 
+    width: 100%;
+}
+.dark-mode .nav-link.active {
+    background-color: #EF667D !important;
+    border-radius: 5px;
+    color: #273049 !important;
+}
+.dark-mode #favicon{
+    content: url("");
+}

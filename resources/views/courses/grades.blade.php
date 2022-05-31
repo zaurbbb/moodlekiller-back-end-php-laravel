@@ -31,9 +31,10 @@
                       @foreach($courses as $course)
                             <tr>
                                 <td>
-                                    <a class="aa8 ms-3" href="#">{{$course['name']}}</a>
+                                    <a class="aa8 ms-3" href="/courses/{{$course['url']}}">{{$course['name']}}</a>
                                 </td>
                                 <td class="aa8 text-center">
+                                    {{$course['register_total']}}
                                 </td>
                             </tr>
                       @endforeach

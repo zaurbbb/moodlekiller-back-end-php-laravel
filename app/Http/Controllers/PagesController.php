@@ -55,21 +55,15 @@ class PagesController extends Controller
         $data = [
             'title' => 'Attendance',
             'field1' => 'Course name',
-            'field2' => 'Grade',
-            'mark' => '100.0%',
+            'field2' => 'Attendance',
+
+            'active_attendance_button' => 'active',
+            'mark' => 'its gonna seen by database',
             'trimesters' => [
                 '3rd trimester',
-                '2nd trimester',
-                '1st trimester',
             ],
-            'courses' => [
-                'english' => 'Professional English | Ainur Bakenova',
-                'web2' => 'WEB Technologies 2 (Back End) | Yelaman Apushev',
-                'ads' => 'Algorithms and Data Structures | Kyzyrkanov Abzal',
-                'calculus' => 'Calculus 1 | Kassabek Dina',
-                'codlab' => 'Coding Lab | Meruyert Nurgazy',
-                'pc' => 'Physical Culture 3 | Askapov Sarzhan',
-            ],
+            //'trimestets' => Course::all()->toArray(),
+            'courses' => Course::all()->toArray(),
         ];
         return view('courses.attendance')->with($data);
     }
@@ -80,5 +74,33 @@ class PagesController extends Controller
             'legend' => 'Your group: SE-2109'
         ];
         return view('courses.schedule')->with($data);
+    }
+
+    public function profile(): string{
+
+        $data = [
+            'title' => 'Your Profile',
+            'name_surname' => 'Zaur Berdibekov',
+            'description' => '17 y.o. Front-end Developer',
+            'legend_text' => 'Status: common user',
+            'email' => '777@mail.ru',
+            'country' => '777@mail.ru',
+            'information' => [
+                'Email' => '777@mail.ru',
+                'Major' => 'Software Engineering',
+                'Group' => 'SE-2109',
+                'Age' => '17',
+                'Gender' => 'Male',
+            ],
+            'information1' => [
+
+                'VKontakte' => 'https://vk.com/lagmazavr',
+                'Instagram' => 'https://www.instagram.com/lagmazavr/',
+                'Telegram' => 'https://t.me/lagmazavr',
+                'LinkedIn' => 'https://www.linkedin.com/in/zaur-berdibekov-b0b921235/',
+                'GitHub' => 'https://github.com/zaurbbb',
+            ],
+        ];
+        return view('user')->with($data);
     }
 }
