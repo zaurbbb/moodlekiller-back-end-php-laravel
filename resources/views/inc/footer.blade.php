@@ -3,7 +3,7 @@
 
 <footer class="container-fluid text-center p-3 disabled text-muted " style="">
     <div class="text-center">
-        <a href="https://astanait.edu.kz/en/aitu-2/" target="_blank" class="footerlink">
+        <a href="/info" target="_blank" class="footerlink">
             <i class="fa fa-external-link-square fa-2x mx-2"></i>
         </a>
         <a href="https://www.instagram.com/astana_it_university/" target="_blank"  class="footerlink"><i class="fa fa-instagram  fa-2x mx-2"></i></a>

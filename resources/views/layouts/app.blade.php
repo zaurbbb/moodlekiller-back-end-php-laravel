@@ -19,7 +19,7 @@
 
 
     <!-- Styles -->
-    <link href="{{URL::asset('css/style.css')}}" rel="stylesheet" id="link">
+    <link href="{{asset('css/style.css')}}" rel="stylesheet" id="link">
 
     <script src="https://kit.fontawesome.com/05a12f98dd.js" crossorigin="anonymous"></script>
 
@@ -81,8 +81,8 @@
     @include('inc.footer')
     </div>
 
-    <script id="script" type="text/javascript" src="{{URL::asset('js/jquery-3.6.0.min.js')}}"></script>
-    <script id="script" type="text/javascript" src="{{URL::asset('js/script.js')}}"></script>
+    <script id="script" type="text/javascript" src="{{asset('js/jquery-3.6.0.min.js')}}"></script>
+    <script id="script" type="text/javascript" src="{{asset('js/script.js')}}"></script>
 
     <script>
         (function() {

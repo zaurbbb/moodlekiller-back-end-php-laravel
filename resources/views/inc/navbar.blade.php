@@ -81,7 +81,7 @@
                     @guest
                         @if (Route::has('login'))
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}"><span class="text-primary">Login</span> to the system</a>
+                                <a class="nav-link" href="{{ route('login') }}"><span class="text">Login</span> to the system</a>
                             </li>
                         @endif
 
@@ -94,7 +94,7 @@
 
                             <ul class="dropdown-menu dropdown-menu-end text-start"  aria-labelledby="navbarDropdown">
                                 <li>
-                                    <a class="dropdown-item" href="/profile">
+                                    <a class="dropdown-item" href="/pro">
                                         <div class="container">
                                             <i class="fa fa-user me-1"></i>
                                             Profile

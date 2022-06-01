@@ -34,7 +34,7 @@
                                     <a class="aa8 ms-3" href="/courses/{{$course['url']}}">{{$course['name']}}</a>
                                 </td>
                                 <td class="aa8 text-center">
-                                    {{$course['attendance']}}
+                                    {{$course['attendance']}}%
                                 </td>
                             </tr>
                         @endforeach

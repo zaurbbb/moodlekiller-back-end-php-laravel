@@ -43,7 +43,6 @@
                         <hr>
                         <div class="row d-flex " >
                             @yield('profile_content')
-                            @yield('profile_content')
 
                         </div>
                     </div>

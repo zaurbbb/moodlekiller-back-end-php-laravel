@@ -9,40 +9,40 @@
     @if(count($trimesters) > 0)
         @foreach($trimesters as $trimester)
 
-                <!-- TRIMAK-->
-                <fieldset class="pt-2 mb-2">
-                  <legend  class="float-none w-auto mx-sm-2 text-xl-start text-center" >
-                      {{$trimester}}
-                  </legend>
-                  <div class="px-3 table-responsive">
+            <!-- TRIMAK-->
+            <fieldset class="pt-2 mb-2">
+                <legend  class="float-none w-auto mx-sm-2 text-xl-start text-center" >
+                    {{$trimester}}
+                </legend>
+                <div class="px-3 table-responsive">
                     <table class="table table-hover table-sm flexible align-middle">
-                      <thead>
+                        <thead>
                         <tr class="align-middle">
-                        <th class="border-bottom custom-bottom">
-                          <span class="mx-3">Course name</span>
-                        </th>
-                        <th class="text-center border-bottom custom-bottom">
-                          <span>Grade</span>
-                        </th>
-                      </tr>
-                      </thead>
-                      <tbody>
+                            <th class="border-bottom custom-bottom">
+                                <span class="mx-3">Course name</span>
+                            </th>
+                            <th class="text-center border-bottom custom-bottom">
+                                <span>Grade</span>
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
 
-                      @foreach($courses as $course)
+                        @foreach($courses as $course)
                             <tr>
                                 <td>
                                     <a class="aa8 ms-3" href="/courses/{{$course['url']}}">{{$course['name']}}</a>
                                 </td>
                                 <td class="aa8 text-center">
-                                    {{$course['register_total']}}
+                                    {{$course['register_total']=$course['register_final']*0.4+$course['register_endterm']*0.3+$course['register_midterm']*0.3}}
                                 </td>
                             </tr>
-                      @endforeach
-                      </tbody>
+                        @endforeach
+                        </tbody>
                     </table>
-                  </div>
-                </fieldset>
-@endforeach
+                </div>
+            </fieldset>
+        @endforeach
     @endif
 
 @endsection

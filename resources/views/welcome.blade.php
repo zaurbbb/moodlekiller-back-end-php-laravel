@@ -6,21 +6,21 @@
     @guest
 
     @else
-        <!-- Courses -->
-            <fieldset class="py-3">
-                <legend id="course" class="float-none w-auto mx-sm-2 text-xl-start text-center" >
-                    {{$legend_trimester}}
-                </legend>
+            <!-- Courses -->
+                <fieldset class="py-3">
+                    <legend id="course" class="float-none w-auto mx-sm-2 text-xl-start text-center" >
+                        {{$legend_trimester}}
+                    </legend>
 
-                <div class="row d-flex justify-content-center">
-                    @foreach($courses as $course)
+                    <div class="row d-flex justify-content-center">
+                        @foreach($courses as $course)
 
-                            <div  class="col-lg-4 d-flex justify-content-center my-2 px-auto py-auto text-wrap">
-                                <a class="subj w-85" href="/courses/{{$course['url']}}">
-                                    {{$course['name']}} | {{$course['teacher']}}
-                                </a>
-                            </div>
-                    @endforeach
+                                <div  class="col-lg-4 d-flex justify-content-center my-2 px-auto py-auto text-wrap">
+                                    <a class="subj w-85" href="/courses/{{$course['url']}}">
+                                        {{$course['name']}} | {{$course['teacher']}}
+                                    </a>
+                                </div>
+                        @endforeach
                 </div>
 
             </fieldset>
@@ -405,45 +405,88 @@
 
                     <fieldset class="mb-1">
                         <legend class="float-none w-auto mx-sm-2 text-xl-start text-center" >
-                            {{$legend_deadlines}}
+                            Deadlines
                         </legend>
 
                         <div class="px-4 py-3 " >
-                            it's gonna be seen with DataBase
-                        {{--@foreach($courses as $course)
+                            <div class="row" onclick="pushUpMessage()" >
+                                <span class="col-12 link-primary">Tuesday, 1 June, 15:00 PM</span>
+                                <a href="#" type="button" >
+                                    <div class="row">
+                                        <div class="col-md-2 сol-sm-2 px-0 py-0 mx-0 d-none d-xxl-block">
+                    <span class="d-flex justify-content-center my-3">
+                      <img src="https://icon-library.com/images/file-icon-image/file-icon-image-5.jpg" style="height: 50px"/>
+                    </span>
+                                        </div>
 
-                            @if(count($deadlines) > 0)
-                                @foreach($deadlines as $key => $deadline)
-                                    <div class="row" onclick="pushUpMessage()" >
-                                        <span class="col-12 text-primary">Monday, 21 February, 11:59 PM</span>
-                                        <a href="#" type="button" >
-                                            <div class="row">
-                                                <div class="col-md-2 сol-sm-2 px-0 py-0 mx-0 d-none d-xxl-block">
-                                            <span class="d-flex justify-content-center my-3">
-                                                <img src="https://icon-library.com/images/file-icon-image/file-icon-image-5.jpg" style="height: 50px"/>
-                                            </span>
-                                                </div>
-
-                                                <div class="col-md-10 сol-sm-10 justify-content-center my-auto ">
-                                                    <h5 class="my-auto align-middle d-block fw-normal">{{$key}}</h5>
-                                                    <h6 class="my-auto align-middle fw-normal d-block text-secondary">
-                                                        {{$deadline}}</h6>
-                                                </div>
-                                            </div>
-                                        </a>
+                                        <div class="col-md-10 сol-sm-10 justify-content-center my-auto ">
+                                            <h5 class="my-auto align-middle d-block fw-normal">Final (Project Defence)</h5>
+                                            <h6 class="my-auto align-middle fw-normal d-block text-secondary">WEB Technologies 2 (Back End) | Yelaman Apushev</h6>
+                                        </div>
                                     </div>
+                                </a>
+                            </div>
 
-                                    <hr>
-                                @endforeach
-                            @endif
+                            <hr>
 
+                            <div class="row"  onclick="pushUpMessage()" >
+                                <span class="col-12 link-primary">Tuesday, 7 June, 15:00 PM</span>
+                                <a href="#">
+                                    <div class="row">
+                                        <div class="col-md-2 сol-sm-2 px-0 py-0 mx-0 d-none d-xxl-block">
+                    <span class="d-flex justify-content-center my-3">
+                      <img src="https://icon-library.com/images/file-icon-image/file-icon-image-5.jpg" style="height: 50px"/>
+                    </span>
+                                        </div>
 
+                                        <div class="col-md-10 сol-sm-10 justify-content-center my-auto ">
+                                            <h5 class="my-auto align-middle d-block fw-normal">Final (CV & Cover Letter)</h5>
+                                            <h6 class="my-auto align-middle fw-normal d-block text-secondary">Professional English | Ainur Bakenova</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <hr>
+
+                            <div class="row"  onclick="pushUpMessage()" >
+                                <span class="col-12 link-primary">Friday, 10 June, 10:00 PM</span>
+                                <a href="#">
+                                    <div class="row">
+                                        <div class="col-md-2 сol-sm-2 px-0 py-0 mx-0 d-none d-xxl-block">
+                    <span class="d-flex justify-content-center my-3">
+                      <img src="https://icon-library.com/images/file-icon-image/file-icon-image-5.jpg" style="height: 50px"/>
+                    </span>
+                                        </div>
+
+                                        <div class="col-md-10 сol-sm-10 justify-content-center my-auto">
+                                            <h5 class="my-auto align-middle d-block fw-normal">Final (Quiz)</h5>
+                                            <h6 class="my-auto align-middle fw-normal d-block text-secondary">Algorithms and Data Structures | Kyzyrkanov Abzal</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <hr>
+
+                            <div class="row"  onclick="pushUpMessage()" >
+                                <span class="col-12 link-primary">Wednesday, 15 June, 14:00</span>
+                                <a href="#">
+                                    <div class="row">
+                                        <div class="col-md-2 сol-sm-2 px-0 py-0 mx-0 d-none d-xxl-block">
+                    <span class="d-flex justify-content-center my-3">
+                      <img src="https://icon-library.com/images/file-icon-image/file-icon-image-5.jpg" style="height: 50px"/>
+                    </span>
+                                        </div>
+
+                                        <div class="col-md-10 сol-sm-10 justify-content-center my-auto ">
+                                            <h5 class="my-auto align-middle d-block fw-normal">Final (Project Defence)</h5>
+                                            <h6 class="my-auto align-middle fw-normal d-block text-secondary">Coding Lab | Meruyert Nurgazy</h6>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-
-                    </fieldset>
-                    @endforeach--}}
-                        </div>
-
 
                     </fieldset>
             @endguest
