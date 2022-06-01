@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
     <div style="margin: 30px; padding-top: 5%">
 
         <div class="row">
@@ -12,13 +13,15 @@
 
                 <div class="col-12 px-2">
                     <!--AVA-->
-                    <div class="text-center">
+                    <a class="text-center" href="/add-image">
                         @yield('ava')
 
-                    </div>
-                    <br>
+                    </a>
+                    <br><br>
 
-                    <p class="fs-3 lead text-center" id="full_name">{{$name_surname}}</p>
+                    <p class="fs-3 lead text-center" id="full_name">
+                        {{ Auth::user()->name }}
+                    </p>
 
                     <br>
 
@@ -27,18 +30,18 @@
 
             <!--USER DETAILS-->
             <div class="col-10 mt-3">
-                <fieldset class="px-2 bg-body">
+                <fieldset class="px-2" style="background-color: transparent;!important;" >
                     <legend class="float-none w-auto mx-sm-2 text-xl-start text-center">
-                        {{$legend_text}}
+                        Some information aboout you
                         <a href="#" role="button">
-                            <i class="fa-solid fa-pencil" onclick="changeUserDetails()" style="color: black"></i></a>
+                            <i class="fa-solid fa-pencil" onclick="pushUpMessage()" style="color: black"></i></a>
                         <span id="user_hat"></span>
                     </legend>
                     <br>
-                    <div id="user_details">
-                        <p class="mx-3"><span id="description">{{$description}}</span></p>
+                    <div id="user_details" >
+                        <p class="mx-3"><span id="description">{{ Auth::user()->description }}</span></p>
                         <hr>
-                        <div class="row d-flex">
+                        <div class="row d-flex " >
                             @yield('profile_content')
 
                         </div>

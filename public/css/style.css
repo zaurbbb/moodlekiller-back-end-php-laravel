@@ -135,7 +135,9 @@ a:hover{
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
 
-
+fieldset{
+    background-color: transparent;
+}
 fieldset:hover{
     border-color: black;
 }
@@ -189,7 +191,9 @@ tr:last-child td{
 #favicon{
     content: url("");
 }
-
+.text{
+    color: #1177d1;
+}
 
 
 .dark-mode{
@@ -276,7 +280,6 @@ tr:last-child td{
     color: #273049;
 }
 .dark-mode.nav-link {
-
     width: 100%;
 }
 .dark-mode .nav-link.active {
@@ -286,4 +289,23 @@ tr:last-child td{
 }
 .dark-mode #favicon{
     content: url("");
+}
+.dark-mode #snackbar {
+    background-color: #273049;
+    color: white;
+}
+.dark-mode #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+.dark-mode #user_details{
+    background-color: transparent;
+}
+.dark-mode .list-group-item{
+    background-color: transparent!important;
+    color: whitesmoke;
+}
+.dark-mode .text{
+    color: #EF667D;
 }

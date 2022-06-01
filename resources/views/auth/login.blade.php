@@ -194,25 +194,26 @@
                         <div class="form-check justify-content-center text-center">
 
                             <input class="form-check-input" type="checkbox" id="remember" {{ old('remember') ? 'checked' : '' }}>
-                            <label class="" ">
+                            <label class="">
                                 Remember me
                             </label>
-
                         </div>
+
                         </center>
+
                     </div>
 
                 </div>
                 <hr>
 
                 <div class="row d-flex justify-content-center text-center">
-
+                    <a class="col-12" href="{{route('register')}}">or Register New Account</a>
                     <div class="col-6 mx-auto my-auto px-auto py-auto mt-3">
                         <a role="button" href="/" class="btn btn-outline-dark">Log in as a guest</a>
                     </div>
 
                     <div class="col-6 mx-auto my-auto px-auto py-auto mt-3">
-                        <button role="button" type="submit" class="btn btn-outline-dark">OpenID Connect</button>
+                        <button role="button" type="submit" class="btn btn-outline-dark">Log in via account</button>
                     </div>
 
 

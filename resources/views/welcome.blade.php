@@ -6,7 +6,6 @@
     @guest
 
     @else
-            {{--
             <!-- Courses -->
                 <fieldset class="py-3">
                     <legend id="course" class="float-none w-auto mx-sm-2 text-xl-start text-center" >
@@ -24,7 +23,7 @@
                         @endforeach
                 </div>
 
-            </fieldset>--}}
+            </fieldset>
     @endguest
 
     <!-- The main block -->

@@ -27,6 +27,6 @@ class UploadImageController extends Controller
     //View image
     public function viewImage(){
         $imageData= Postimage::all();
-        return view('Image.view_image', compact('imageData'));
+        return view('user', compact('imageData'));
     }
 }
