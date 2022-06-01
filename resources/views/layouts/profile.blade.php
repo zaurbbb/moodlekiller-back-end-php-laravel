@@ -42,7 +42,10 @@
                         <p class="mx-3"><span id="description">{{ Auth::user()->description }}</span></p>
                         <hr>
                         <div class="row d-flex " >
+<<<<<<< HEAD
                             @yield('profile_content')
+=======
+>>>>>>> c6f55ba31efba73dcef394beb7b0ad7ef22c7e89
                             @yield('profile_content')
 
                         </div>
@@ -59,7 +62,6 @@
 
     </div>
 
-    <br>
     <br>
     <br>
     <br>

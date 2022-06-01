@@ -28,6 +28,7 @@
                         </thead>
                         <tbody>
 
+<<<<<<< HEAD
                         @foreach($courses as $course)
                             <tr>
                                 <td>
@@ -44,6 +45,24 @@
             </fieldset>
         @endforeach
     @endif
+=======
+             @foreach($courses as $course)
+                   <tr>
+                       <td>
+                           <a class="aa8 ms-3" href="/courses/{{$course['url']}}">{{$course['name']}}</a>
+                       </td>
+                       <td class="aa8 text-center">
+                           {{$course['attendance']}}%
+                       </td>
+                   </tr>
+               @endforeach
+               </tbody>
+           </table>
+       </div>
+   </fieldset>
+@endforeach
+@endif
+>>>>>>> c6f55ba31efba73dcef394beb7b0ad7ef22c7e89
 
 @endsection
 

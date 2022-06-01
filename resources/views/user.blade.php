@@ -1,6 +1,10 @@
 @extends('layouts.prof')
 
 @section('ava')
+<<<<<<< HEAD
+=======
+
+>>>>>>> c6f55ba31efba73dcef394beb7b0ad7ef22c7e89
     <img src="https://i.pinimg.com/originals/1f/de/c9/1fdec9d0c4d8754be744a44bb2d27a18.png" style="z-index: 1"  class="rounded border" height="205" width="205">
 @endsection
 

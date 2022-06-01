@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 use Illuminate\Support\Facades\Route;
@@ -36,3 +37,5 @@ Route::get('/courses/algorithms_and_data_structures', 'App\Http\Controllers\Page
 Route::get('/courses/calculus_1', 'App\Http\Controllers\PagesController@calculus_1');
 Route::get('/courses/coding_lab', 'App\Http\Controllers\PagesController@coding_lab');
 Route::get('/courses/physical_culture_3', 'App\Http\Controllers\PagesController@physical_culture_3');
+=======
+>>>>>>> c6f55ba31efba73dcef394beb7b0ad7ef22c7e89

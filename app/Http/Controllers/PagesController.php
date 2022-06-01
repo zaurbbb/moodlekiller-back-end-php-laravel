@@ -2,11 +2,18 @@
 
 namespace App\Http\Controllers;
 namespace App\Http\Controllers;
+<<<<<<< HEAD
 use App\Http\Controllers\Controller;
 use App\Models\Course;
 use Illuminate\Http\Request;
 use DB;
 use App\Http\Requests;
+=======
+use Illuminate\Http\Request;
+use DB;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
+>>>>>>> c6f55ba31efba73dcef394beb7b0ad7ef22c7e89
 use App\Models\User;
 class PagesController extends Controller
 {
@@ -75,11 +82,16 @@ class PagesController extends Controller
         return view('courses.schedule')->with($data);
     }
 
+<<<<<<< HEAD
     public function pro(){
+=======
+    public function profile(){
+>>>>>>> c6f55ba31efba73dcef394beb7b0ad7ef22c7e89
 
         $data = [
             $users = DB::select('select * from users'),
             'title' => 'Your Profile',
+<<<<<<< HEAD
         ];
         return view('user',['users'=>$users])->with($data);
     }
@@ -158,6 +170,51 @@ class PagesController extends Controller
         ];
 
         return view('list.professional_english')->with($data);
+=======
+            'description' => '17 y.o. Front-end Developer',
+            'legend_text' => 'Some information about you',
+            'email' => '777@mail.ru',
+            'country' => '777@mail.ru',
+            'information' => [
+                'Email' => 'a',
+                'Major' => 'Software Engineering',
+                'Group' => 'SE-2109',
+                'Age' => '17',
+                'Gender' => 'Male',
+            ],
+            'information1' => [
+                'VKontakte' => 'https://vk.com/lagmazavr',
+                'Instagram' => 'https://www.instagram.com/lagmazavr/',
+                'Telegram' => 'https://t.me/lagmazavr',
+                'LinkedIn' => 'https://www.linkedin.com/in/zaur-berdibekov-b0b921235/',
+                'GitHub' => 'https://github.com/zaurbbb',
+            ],
+        ];
+        return view('user',['users'=>$users])->with($data);
+    }
+
+    public function info(){
+
+        $data = [
+            'title' => 'About us ',
+            'fullname1' => 'Zaur Berdibekov',
+            'name1' => 'zaur',
+            'role1' => 'Full-Stack Developer',
+            'img1' => 'https://sun1.dataix-kz-akkol.userapi.com/impf/NYufKyTh6AuOfLACl_1DwNesXxPUfGY3LYLD_w/6BnbfWEjFAY.jpg?size=640x640&quality=96&sign=8e4368ad7dfa34e4c66dd716c90eb4a4&type=album',
+
+            'fullname2' => 'Umar Musa',
+            'name2' => 'umar',
+            'role2' => 'Mobile & Back-end Developer',
+            'img2' => 'https://sun9-87.userapi.com/impf/hXOHdjIZnTrEo3NNuK3aBII4CRy-NSUmTnDEsg/5Qb98pjhNLQ.jpg?size=640x640&quality=96&sign=919edb211f86f8a916b951165364ecd6&type=album',
+
+            'fullname3' => 'Akniet Baibolat',
+            'name3' => 'akniet',
+            'role3' => 'UX/UI Designer',
+            'img3' => 'https://sun9-86.userapi.com/impf/9aw3yqHezzRDVuzRzUjt82X392uilFoMsjX8PQ/ksc0TMcG1z0.jpg?size=640x640&quality=96&sign=a81f085956577d544f116610f90eb443&type=album',
+
+        ];
+        return view('info')->with($data);
+>>>>>>> c6f55ba31efba73dcef394beb7b0ad7ef22c7e89
     }
     public function web_technologies_2(){
 
