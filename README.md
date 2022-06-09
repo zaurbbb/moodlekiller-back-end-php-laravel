@@ -35,11 +35,6 @@ Start the local development server
 
 You can now access the server at http://localhost:8000
 
-## Dependencies
-Zaur - founder and full-stack side
-Umar - database expert 
-Akniet - designer and front side
-
 ## Environment variables
 
 - `.env` - Environment variables can be set in this file
