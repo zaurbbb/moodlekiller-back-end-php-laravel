@@ -1,6 +1,6 @@
 # Moodlekiller Back-End
 
-> ### Back-End realization of [m00dlekiller-front-end](https://github.com/zaurbbb/m00dlekiller-front-end)
+> ### Back-End realization of https://bioneisme.github.io/m00dlekiller/
 
 The project was developed in Laravel PHP framework.
 
