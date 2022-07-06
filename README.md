@@ -39,4 +39,4 @@ Start the local development server
 
     php artisan serve
 
-You can now access the server at http://localhost:8000. You should be registered first, after you can manage site in phpMyAdmin with adding courses, users, marks and etc.
+You can now access the server at http://localhost:8000. You should be registered first, after you can manage site in phpMyAdmin with adding courses, users, marks and etc. You can see the demonstration of the project by the link https://youtu.be/csaKDw5NoEQ
